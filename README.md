@@ -19,7 +19,7 @@ Content-Type: text/plain;charset=utf-8
 
 - With proxy, HTTP response contains CORS access headers, allowing Cross Domain browser request
 ```
-curl --head http://localhost:8080/https://sampleserver1.arcgisonline.com/ArcGIS/rest/info\?f\=json\&pretty\=true
+curl --head http://localhost:8080/https://sampleserver1.arcgisonline.com/ArcGIS/rest/info?f=json&pretty=true
 
 HTTP/1.1 200 OK
 content-length: 248
